@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+
+
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: "Cairo", sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+}
+
+* {
+    box-sizing: border-box;
+}
