@@ -78,7 +78,7 @@ export function useStudentSearch() {
                 ? { seating_no: input }
                 : { arabic_name: input };
 
-            const response = await api.get("/students/search", {
+            const response = await api.get("/api/students/search", {
                 params,
             });
 
